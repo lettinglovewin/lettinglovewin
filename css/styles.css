@@ -1,0 +1,95 @@
+
+body {
+	background-color: #fff;
+    color: #212121;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.7em;
+    padding-top: 70px; 
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h1, h2 {
+	color:  #b3b31a;
+	font-weight: 600;
+}
+
+ul.objectives li{ /* Dostana objectives */
+    margin-bottom: 15px;
+}
+
+.fa:hover { /* Twitter, Facebook, and email icon hover color - FontAwesome */
+    color: #757575;
+}
+
+/****** Buttons ******/
+
+.btn {
+    background-color:  #00bcd4;
+    border:none;
+    color: #fff;
+    margin: 10px 10px 10px 0px;
+}
+
+.btn:hover {
+    background-color: #616161;
+}
+
+.btn.walk {
+    background-color: #757575;
+    border:none;
+    color: #fff;
+    margin: 10px 10px 10px 0px;
+}
+
+.btn.walk:hover {
+    background-color: #9e9e9e;
+}
+
+a.btn:hover {
+    color: #fff;
+}
+
+.underlinelink { /* Provides a different underlining for links */
+     border-bottom: 1px solid #757575;
+     padding-bottom: 1px;
+}
+
+/****** Navigation bar ******/
+
+.navbar-inverse {
+    background-color: #cccc33;
+    border-color:  #cccc33;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #757575;
+}
+
+.active {
+    background-color: #757575;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 568px) {
+        h1 {
+    font-size:3em;
+    }
+}
