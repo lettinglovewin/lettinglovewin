@@ -29,6 +29,10 @@ ul.objectives li{ /* Dostana objectives */
     color: #757575;
 }
 
+.emphasize {
+    font-weight: 800;
+}
+
 /****** Buttons ******/
 
 .btn {
