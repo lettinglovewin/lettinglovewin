@@ -40,10 +40,14 @@ ul.objectives li{ /* Dostana objectives */
     border:none;
     color: #fff;
     margin: 10px 10px 10px 0px;
+    transition-duration: 1s;
+
 }
 
 .btn:hover {
     background-color: #616161;
+    border-radius: .6em;
+    box-shadow:0 0 0 2px rgba(179, 179, 179, .7);
 }
 
 .btn.walk {
