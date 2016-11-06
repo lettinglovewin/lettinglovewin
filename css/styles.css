@@ -33,6 +33,10 @@ ul.objectives li{ /* Dostana objectives */
     font-weight: 800;
 }
 
+.embed-responsive {
+    margin-bottom: 25px;
+}
+
 /****** Buttons ******/
 
 .btn {
