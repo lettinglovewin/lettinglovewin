@@ -21,6 +21,10 @@ h1, h2 {
 	font-weight: 600;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 ul.objectives li{ /* Dostana objectives */
     margin-bottom: 15px;
 }
