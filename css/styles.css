@@ -41,6 +41,9 @@ ul.objectives li{ /* Dostana objectives */
     margin-bottom: 25px;
 }
 
+figcaption {
+    font-size: .75em;
+}
 /****** Buttons ******/
 
 .btn {
