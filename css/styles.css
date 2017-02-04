@@ -17,7 +17,7 @@ h1 {
 }
 
 h1, h2 {
-	color:  #b3b31a;
+	color:  #1B998B;
 	font-weight: 600;
 }
 
@@ -47,7 +47,7 @@ ul.objectives li{ /* Dostana objectives */
 /****** Buttons ******/
 
 .btn {
-    background-color:  #00bcd4;
+    background-color:  #931505;
     border:none;
     color: #fff;
     margin: 10px 10px 10px 0px;
@@ -84,8 +84,8 @@ a.btn:hover {
 /****** Navigation bar ******/
 
 .navbar-inverse {
-    background-color: #cccc33;
-    border-color:  #cccc33;
+    background-color: #464F51;
+    border-color:  #757575;
 }
 
 .navbar-inverse .navbar-nav>li>a {
