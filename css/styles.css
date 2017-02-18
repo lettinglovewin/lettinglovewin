@@ -33,6 +33,10 @@ ul.objectives li{ /* Dostana objectives */
     color: #757575;
 }
 
+img.book {
+    margin-top: 20px;
+}
+
 .emphasize {
     font-weight: 800;
 }
@@ -49,8 +53,13 @@ ul.objectives li{ /* Dostana objectives */
     font-size: .75em;
 }
 
+.video-captions {
+    font-size: .85em;
+}
+
 .authentic-media {
     background-color: #222;
+    margin-bottom: 25px;
     margin-top: 20px;
     padding: 23px;
     border: 1px dashed #fff;
