@@ -1,3 +1,22 @@
+/* This site was built using the Bootstrap framework, Google Fonts, and Font Awesome. 
+See http://getbootstrap.com, https://fonts.google.com, and http://fontawesome.io for more information. */
+
+/* COLORS
+    - background color #fff (white)
+    - body text #212121 (black)
+    - titles(H1, H2) #1B998B (teal)
+    - navbar background #464F51 (gray)
+    - navbar active and border #4757575 (light gray)
+    - navbar link text #fff (white)
+*/   
+
+/* FONTS
+    - body text Proza Libre sans-serif
+    - titles (h1, h2 etc.) Cormorant Garamond serif
+*/
+
+
+/* ===PRIMARY LAYOUT STRUCTURE=== */
 
 body {
 	background-color: #fff;
@@ -8,60 +27,52 @@ body {
     padding-top: 70px; 
 }
 
-h1,h2,h3,h4,h5{
-	font-family: 'Cormorant Garamond', serif;
+
+/* ===SECONDARY LAYOUT STRUCTURE=== */
+
+.navbar-inverse {
+    background-color: #464F51;
+    border-color:  #757575;
 }
 
-h1 {
-	font-size: 4em;
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1em;
 }
 
-h1, h2 {
-	color:  #1B998B;
-	font-weight: 600;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #757575;
 }
 
-.page-header {
-    margin-top: 3px;
+.active { /* Active menu link is in a lighter shade of gray */
+    background-color: #757575;
 }
 
-a:hover{
-    text-decoration: none;
+footer {
+    margin: 50px 0;
 }
 
-ul.objectives li{ /* Dostana objectives */
-    margin-bottom: 15px;
+/* ===TERTIARY LAYOUT STRUCTURE=== */
+
+.video-container { /* These two classes make the embedded videos responsive. */
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 20px;
+    height: 0;
+    overflow: hidden;
 }
 
-.fa:hover { /* Twitter, Facebook, and email icon hover color - FontAwesome */
-    color: #757575;
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-img.book {
-    margin-top: 20px;
-}
-
-.emphasize {
-    font-weight: 800;
-}
-
-.newsitems {
-    margin-top: 15px;
-}
-
-.embed-responsive {
-    margin-bottom: 25px;
-}
-
-.caption {
-    font-size: .75em;
-}
-
-.video-captions { /* Also used for the second paragraph on the Home page */
-    font-size: .85em;
-}
-
-.authentic-media {
+.authentic-media { /* These classes are for the dark gray box on the Home page with the hashtag and a link to the publisher's website*/
     background-color: #222;
     margin-bottom: 25px;
     margin-top: 20px;
@@ -86,29 +97,59 @@ a.authentic-link:hover {
     color: #fff;
 }
 
-p.hash {
+/* ===TEXT=== */
+
+h1,h2,h3,h4,h5{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h1, h2 {
+    color:  #1B998B;
+    font-weight: 600;
+}
+
+/* ===GENERAL STYLES=== */
+
+.newsitems { /* Provides some space between the link and the excerpt on the News page. */
+    margin-top: 15px;
+}
+
+.page-header { /* H1 on the Home page */
+    margin-top: 3px;
+}
+
+ul.objectives li{ /* Dostana objectives */
+    margin-bottom: 15px;
+}
+
+.fa:hover { /* Twitter, Facebook, and email icon hover color - FontAwesome */
+    color: #757575;
+}
+
+img.book { /* For the 3-dimensional book on the Home page */
+    margin-top: 20px;
+}
+
+.emphasize { /* For the word "vital" on the Home page */
+    font-weight: 800;
+}
+
+.caption { /* For the names under the photo on the Home page */
+    font-size: .75em;
+}
+
+.video-captions { /* NOTE: Also used for the second paragraph on the Home page */
+    font-size: .85em;
+}
+
+p.hash { /* For the hashtag on the Home page */
     color: #fff;
     margin-bottom: -3px;
 }
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 20px;
-    height: 0;
-    overflow: hidden;
-}
-
-.video-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-/****** Buttons ******/
 
 .btn {
     background-color:  #931505;
@@ -137,31 +178,11 @@ a.btn:hover {
      padding-bottom: 1px;
 }
 
-/****** Navigation bar ******/
-
-.navbar-inverse {
-    background-color: #464F51;
-    border-color:  #757575;
+a:hover{ /* Removes the default underlining on links */
+    text-decoration: none;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #fff;
-    font-family: 'Proza Libre', sans-serif;
-    font-size: 1em;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #757575;
-}
-
-.active {
-    background-color: #757575;
-}
-
-footer {
-    margin: 50px 0;
-}
+/* ===MEDIA QUERIES=== */
 
 @media screen and (max-width: 768px) {
         h1 {
