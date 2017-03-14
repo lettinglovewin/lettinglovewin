@@ -165,9 +165,6 @@ p.hash { /* For the hashtag on the Home page */
     box-shadow:0 0 0 2px rgba(179, 179, 179, .7);
 }
 
-.btn.waterstones { /* Different color for the Waterstones button */
-    background-color:  #1B998B;
-}
 
 a.btn:hover {
     color: #fff;
