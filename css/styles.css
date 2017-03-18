@@ -114,6 +114,12 @@ h1, h2 {
 
 /* ===GENERAL STYLES=== */
 
+.crowdfunding {
+    color: #931505;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .newsitems { /* Provides some space between the link and the excerpt on the News page. */
     margin-top: 15px;
 }
