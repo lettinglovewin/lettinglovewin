@@ -140,6 +140,13 @@ img.book { /* For the 3-dimensional book on the Home page */
     margin-top: 20px;
 }
 
+.delay {
+    color:  #FF6700;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+}
+
 .emphasize { /* For the word "vital" on the Home page */
     font-weight: 800;
 }
